@@ -1,0 +1,25 @@
+.position {
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+    width: 9.8%;
+}
+.position p {
+    font-size: 0.9em!important;
+    margin-top: 6px!important;
+    line-height: 1em!important;
+}
+/*.position.full {
+    position: relative;
+    top: 2.7em!important;
+}*/
+.position {
+    margin-right: 0.2%;
+    margin-left: 0.2%;
+}
+
+.position img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
