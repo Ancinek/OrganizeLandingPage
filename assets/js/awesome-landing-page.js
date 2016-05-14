@@ -96,7 +96,7 @@
 
             return ((elemTop < viewportBottom) && (elemBottom > viewportTop));
         }
-        
+
 
         function isScrolledIntoView(elem)
         {
@@ -112,7 +112,7 @@
             return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
         }
 
-        
+
 $(document).ready(function() {
     new WOW().init();
     $('#phone').addClass('animated fadeInUp');
@@ -121,19 +121,11 @@ $(document).ready(function() {
     $('.download-text-1').lettering();
     $('.download-text-2').lettering();
     $('.header-text').lettering();
-    $('#lightbulb-text').css('visibility', 'hidden');
     $('.brand-name').textillate({ in: { effect: 'fadeInDownBig' } });
-    
-    
+
+
 });
-var firstTime = true;
-$('#lightbulb-section').on('animationend webkitAnimationEnd oAnimationEnd', function () {
-    if(firstTime){
-        firstTime = false;
-        return;
-    }
-    $('#lightbulb-text').textillate({ initialDelay: 0, in: { effect: 'fadeInDown', delayScale: 1.0, delay: 5 } });
-});
+
 
 
 
