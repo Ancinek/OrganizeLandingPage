@@ -122,8 +122,6 @@ $(document).ready(function() {
     $('.download-text-2').lettering();
     $('.header-text').lettering();
     $('.brand-name').textillate({ in: { effect: 'fadeInDownBig' } });
-
-
 });
 
 
